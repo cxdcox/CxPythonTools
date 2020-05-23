@@ -1,3 +1,0 @@
-
-7z a -r -tzip C:\public_hda2\JWeb.Software\CheckMarx_Projects\Python_Utilities\CxRestAPI\JwsDev_WorkDir\JWebsoftwareDev_JWS_App-Project_1.zip *.cpp *.java *.swift
-
