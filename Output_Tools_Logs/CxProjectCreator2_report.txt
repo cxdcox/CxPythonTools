@@ -1,0 +1,24 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+CxProjectCreationCollection1.CxProjectCreationCollection (v1.0549):  Checkmarx CxProjectCreation(s) collection for (1) element(s):
+
+CxProjectCreationCollection1.CxProjectCreationCollection (v1.0549):  CxProjectCreation element (  1) of (  1):
+Project 'Name' [CxProjCreationMainTest1], 'Base Name' [CxProjCreationMainTest1], 'Id' [390259], 'Is Public?' [ True], 
+........'Team' [None], 'Version' [None], 
+........'Team Name' [\CxServer\SP\Company\Users], 'Team Id' [22222222-2222-448d-b029-989c9070eb23], 
+........'Preset Name' [Checkmarx Default], 'Preset Id' [36], 
+........'EngineConfig Name' [Default Configuration], 'EngineConfig Id' [1]. 
+............Branched Project 'Name' [CxProjCreationMainTest1_BR_Branch1], 'Id' [390260]. 
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - - DEBUG - - - - - - - - - - - - - - - - - - - - - -
+CxProjectCreationCollection1.CxProjectCreationCollection (v1.0549):  Checkmarx CxProjectCreation(s) collection for (1) element(s):
+
+CxProjectCreationCollection1.CxProjectCreationCollection (v1.0549):  CxProjectCreation element (named 'CxProjCreationMainTest1')[(1) of (1)] is:
+'sClassDisp' is [CxProjectCreation1.CxProjectCreation (v1.0528): ], 'bTraceFlag' is [True], 'sCxProjectBaseName' is [CxProjCreationMainTest1], 'sCxProjectName' is [CxProjCreationMainTest1], 'bCxProjectIsPublic' is [True], 'sCxProjectTeam' is [None], 'sCxProjectVersion' is [None], 'sCxProjectTeamName' is [\CxServer\SP\Company\Users], 'sCxProjectPresetName' is [Checkmarx Default], 'sCxProjectEngineConfigName' is [Default Configuration], 'asCxProjectBranchNames' is [['Branch1']], 'sCxProjectId' is [390259], 'sCxProjectTeamId' is [22222222-2222-448d-b029-989c9070eb23], 'sCxProjectPresetId' is [36], 'sCxProjectEngineConfigId' is [1], 'dictCxProjectBranchedNames' is [defaultdict(None, {'CxProjCreationMainTest1_BR_Branch1': '390260'})], 'objCxProjectExtraField1' is [None], 'objCxProjectExtraField2' is [None], 'objCxProjectExtraField3' is [None]. 
+
+
+- - - - - - - - - - - - - - - - DEBUG - - - - - - - - - - - - - - - - - - - - - -

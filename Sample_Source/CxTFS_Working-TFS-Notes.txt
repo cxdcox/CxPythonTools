@@ -1,0 +1,57 @@
+
+=======================
+CxTFS Working-TFS Notes
+=======================
+
+Components of a REST API request/response pair
+----------------------------------------------
+
+A REST API request/response pair can be separated into five components:
+
+    The request URI, in the following form:
+
+    VERB https://{instance}[/{team-project}]/_apis[/{area}]/{resource}?api-version={version}
+
+    where:
+        instance: The Azure DevOps Services organization or TFS server you're sending the request to. They are structured as follows:
+            Azure DevOps Services: dev.azure.com/{organization}
+            TFS: {server:port}/tfs/{collection} (the default port is 8080, and the value for collection should be DefaultCollection but can be any collection)
+        resource path: The resource path is as follows: _apis/{area}/{resource}. For example _apis/wit/workitems.
+        api-version: Every API request should include an api-version to avoid having your app or service break as APIs evolve. api-versions are in the following format: {major}.{minor}[-{stage}[.{resource-version}]], for example:
+            api-version=1.0
+            api-version=1.2-preview
+            api-version=2.0-preview.1
+
+        Note: area and team-project are optional, depending on the API request. Check out the TFS to REST API version mapping matrix below to find which REST API versions apply to your version of TFS.
+
+Application-mapping
+-------------------
+
+    URL: https://tfs.exclaim-crp.com:8081/tfs/ElevateDev/Rise                   --- Elevate considers 'Rise' to be an App -> {team-project}
+    URL: https://tfs.exclaim-crp.com:8081/tfs/ElevateDev/Rise/_git/RiseApps     --- 'RiseApps' is a Repo
+    URL: https://tfs.exclaim-crp.com:8081/tfs/ElevateDev/Rise/_git/RiseApps/??? --- '???' is a Repo's 'Branch'
+
+GIT Repo list
+-------------
+
+    URL: GET https://dev.azure.com/{organization}/{project}/_apis/git/repositories?
+                 includeLinks={includeLinks}&
+		 includeAllUrls={includeAllUrls}&
+		 includeHidden={includeHidden}&
+		 api-version=5.0
+
+GIT Repo 'Branch' list
+----------------------
+
+    URL: GET https://dev.azure.com/{organization}/{project}/_apis/git/repositories/{repositoryId}/refs?
+                 filter={filter}&
+		 includeLinks={includeLinks}&
+		 includeStatuses={includeStatuses}&
+		 includeMyBranches={includeMyBranches}&
+		 latestStatusesOnly={latestStatusesOnly}&
+		 peelTags={peelTags}&
+		 filterContains={filterContains}&
+		 $top={$top}&
+		 continuationToken={continuationToken}&
+		 api-version=5.0
+

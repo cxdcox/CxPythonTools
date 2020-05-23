@@ -1,0 +1,35 @@
+
+CxProjectDataCollection1.CxProjectDataCollection (v1.0504):  CxProjectData element (named 'JenkinsPipelineCxP_SQLInjectionSample_3')[(6) of (23)] is:
+'sClassDisp' is [CxProjectData1.CxProjectData (v1.0504): ], 'bTraceFlag' is [True], 
+
+'sCxProjectName' is [JenkinsPipelineCxP_SQLInjectionSample_3], 
+'sCxProjectId' is [390078], 'iCxProjectId' is (390078), 
+'bCxProjectIsPublic' is [True], 
+'sCxProjectTeamId' is [00000000-1111-1111-b111-989c9070eb11], 
+'asCxProjectLinks' is [[{'rel': 'self', 'uri': '/projects/390078'}, 
+                        {'rel': 'teams', 'uri': '/auth/teams/'},
+			{'rel': 'latestscan', 'uri': '/sast/scans?projectId=390078&last=1'},
+			{'rel': 'allscans', 'uri': '/sast/scans?projectId=390078'},
+			{'rel': 'scansettings', 'uri': '/sast/scanSettings/390078'}, 
+			{'type': 'local', 'rel': 'source', 'uri': None}]], 
+'asCxProjectCustomFields' is [[]],
+'dictCxProjectScans' is [defaultdict(None, 
+   {'1450383': 'sClassDisp' is [CxProjectScan1.CxProjectScan (v1.0501): ], 'bTraceFlag' is [True], 
+    'sCxScanId' is [1450383], 'iCxScanId' is (1450383), 
+    'bCxScanIsPublic' is [True], 
+    'sCxScanOwningTeamId' is [00000000-1111-1111-b111-989c9070eb11], 
+    'dictCxScanStatus' is [{'id': 7, 'name': 'Finished', 'details': {'stage': '', 'step': ''}}], 
+    'dictCxScanStatusFinished' is [{'id': 0, 'value': 'None'}], 
+    'dictCxScanResultsStats' is [{'highSeverity': 8, 'mediumSeverity': 5, 'lowSeverity': 38, 'infoSeverity': 7,
+                                  'statisticsCalculationDate': '2019-06-05T20:58:34.907'}]. ,
+
+    '1450382': 'sClassDisp' is [CxProjectScan1.CxProjectScan (v1.0501): ], 'bTraceFlag' is [True], 
+    'sCxScanId' is [1450382], 'iCxScanId' is (1450382), 
+    'bCxScanIsPublic' is [True],
+    'sCxScanOwningTeamId' is [00000000-1111-1111-b111-989c9070eb11],
+    'dictCxScanStatus' is [{'id': 7, 'name': 'Finished', 'details': {'stage': '', 'step': ''}}], 
+    'dictCxScanStatusFinished' is [{'id': 0, 'value': 'None'}], 
+    'dictCxScanResultsStats' is [{'highSeverity': 9, 'mediumSeverity': 5, 'lowSeverity': 34, 'infoSeverity': 7, 
+                                  'statisticsCalculationDate': '2019-06-05T20:51:39.167'}]. 
+    })]. 
+

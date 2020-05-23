@@ -1,0 +1,590 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  Checkmarx CxTFSProjectData(s) collection for (3) element(s):
+
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  CxTFSProjectData element (  1) of (  3):
+Project 'Id' [64d0c476-1c6f-43f0-a605-f13704d21b84], 'Name' [JWS_App-Project_3], 
+........'Is Public?' [False], 'State' [wellFormed], 'Revision' [27], 
+........'Details URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84], 
+........'Collection URL' [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8], 
+........'Team URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1], 
+........'Team Identity URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/b1390904-d616-41bd-8319-785a781775d1], 
+........'Team Id' [b1390904-d616-41bd-8319-785a781775d1], 'Team Name' [JWS_App-Project_3 Team], 
+........'Team Project Id' [64d0c476-1c6f-43f0-a605-f13704d21b84], 'Team Project Name' [JWS_App-Project_3], 
+........'Team Description' [The default project team.], 
+........'Links' [{'id': 'b1390904-d616-41bd-8319-785a781775d1', 'name': 'JWS_App-Project_3 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1'}], 
+........'DefaultTeam' [{'self': {'href': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84'}, 'collection': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_3'}}], 
+........'Collection' [{'id': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'name': 'JWebsoftwareDev', 'url': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'description': 'JWebsoftware Development collection', 'state': 'Started', '_links': {'self': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/'}}}], 
+........'Team' [{'id': 'b1390904-d616-41bd-8319-785a781775d1', 'name': 'JWS_App-Project_3 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1', 'description': 'The default project team.', 'identityUrl': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/b1390904-d616-41bd-8319-785a781775d1', 'projectName': 'JWS_App-Project_3', 'projectId': '64d0c476-1c6f-43f0-a605-f13704d21b84'}]. 
+........'Team Identity' [{'id': 'b1390904-d616-41bd-8319-785a781775d1', 'descriptor': 'Microsoft.TeamFoundation.Identity;S-1-9-1551374245-3676763330-3727377230-2188695019-1701129950-1-2405522436-2630683725-2900901314-3470126043', 'providerDisplayName': '[JWS_App-Project_3]\\JWS_App-Project_3 Team', 'isActive': True, 'isContainer': True, 'members': [], 'memberOf': [], 'memberIds': [], 'masterId': 'ffffffff-ffff-ffff-ffff-ffffffffffff', 'properties': {'SchemaClassName': {'$type': 'System.String', '$value': 'Group'}, 'Description': {'$type': 'System.String', '$value': 'The default project team.'}, 'Domain': {'$type': 'System.String', '$value': 'vstfs:///Classification/TeamProject/64d0c476-1c6f-43f0-a605-f13704d21b84'}, 'Account': {'$type': 'System.String', '$value': 'JWS_App-Project_3 Team'}, 'SecurityGroup': {'$type': 'System.String', '$value': 'SecurityGroup'}, 'SpecialType': {'$type': 'System.String', '$value': 'Generic'}, 'ScopeId': {'$type': 'System.Guid', '$value': 'c2f426db-2bde-4e43-8274-d5eb65652ede'}, 'ScopeType': {'$type': 'System.String', '$value': 'TeamProject'}, 'LocalScopeId': {'$type': 'System.Guid', '$value': '64d0c476-1c6f-43f0-a605-f13704d21b84'}, 'SecuringHostId': {'$type': 'System.Guid', '$value': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'ScopeName': {'$type': 'System.String', '$value': 'JWS_App-Project_3'}, 'VirtualPlugin': {'$type': 'System.String', '$value': ''}}, 'resourceVersion': 2, 'metaTypeId': 255}]. 
+........
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  CxTFSProjectData element (  2) of (  3):
+Project 'Id' [b173108d-156a-4dbd-b497-424656518485], 'Name' [JWS_App-Project_2], 
+........'Is Public?' [False], 'State' [wellFormed], 'Revision' [18], 
+........'Details URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485], 
+........'Collection URL' [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8], 
+........'Team URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00], 
+........'Team Identity URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/36ea6805-b2e2-40d3-83e1-929248c13f00], 
+........'Team Id' [36ea6805-b2e2-40d3-83e1-929248c13f00], 'Team Name' [JWS_App-Project_2 Team], 
+........'Team Project Id' [b173108d-156a-4dbd-b497-424656518485], 'Team Project Name' [JWS_App-Project_2], 
+........'Team Description' [The default project team.], 
+........'Links' [{'id': '36ea6805-b2e2-40d3-83e1-929248c13f00', 'name': 'JWS_App-Project_2 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00'}], 
+........'DefaultTeam' [{'self': {'href': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485'}, 'collection': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_2'}}], 
+........'Collection' [{'id': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'name': 'JWebsoftwareDev', 'url': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'description': 'JWebsoftware Development collection', 'state': 'Started', '_links': {'self': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/'}}}], 
+........'Team' [{'id': '36ea6805-b2e2-40d3-83e1-929248c13f00', 'name': 'JWS_App-Project_2 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00', 'description': 'The default project team.', 'identityUrl': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/36ea6805-b2e2-40d3-83e1-929248c13f00', 'projectName': 'JWS_App-Project_2', 'projectId': 'b173108d-156a-4dbd-b497-424656518485'}]. 
+........'Team Identity' [{'id': '36ea6805-b2e2-40d3-83e1-929248c13f00', 'descriptor': 'Microsoft.TeamFoundation.Identity;S-1-9-1551374245-115205963-206790733-3027033700-1723512004-1-2325024426-3578115910-2904102122-3782818031', 'providerDisplayName': '[JWS_App-Project_2]\\JWS_App-Project_2 Team', 'isActive': True, 'isContainer': True, 'members': [], 'memberOf': [], 'memberIds': [], 'masterId': 'ffffffff-ffff-ffff-ffff-ffffffffffff', 'properties': {'SchemaClassName': {'$type': 'System.String', '$value': 'Group'}, 'Description': {'$type': 'System.String', '$value': 'The default project team.'}, 'Domain': {'$type': 'System.String', '$value': 'vstfs:///Classification/TeamProject/b173108d-156a-4dbd-b497-424656518485'}, 'Account': {'$type': 'System.String', '$value': 'JWS_App-Project_2 Team'}, 'SecurityGroup': {'$type': 'System.String', '$value': 'SecurityGroup'}, 'SpecialType': {'$type': 'System.String', '$value': 'Generic'}, 'ScopeId': {'$type': 'System.Guid', '$value': '4be7dd06-530c-4d60-b46c-de6466bab4c4'}, 'ScopeType': {'$type': 'System.String', '$value': 'TeamProject'}, 'LocalScopeId': {'$type': 'System.Guid', '$value': 'b173108d-156a-4dbd-b497-424656518485'}, 'SecuringHostId': {'$type': 'System.Guid', '$value': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'ScopeName': {'$type': 'System.String', '$value': 'JWS_App-Project_2'}, 'VirtualPlugin': {'$type': 'System.String', '$value': ''}}, 'resourceVersion': 2, 'metaTypeId': 255}]. 
+........
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  CxTFSProjectData element (  3) of (  3):
+Project 'Id' [dc408339-e04f-4582-9b50-65e9182fcb3a], 'Name' [JWS_App-Project_1], 
+........'Is Public?' [False], 'State' [wellFormed], 'Revision' [9], 
+........'Details URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a], 
+........'Collection URL' [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8], 
+........'Team URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a], 
+........'Team Identity URL' [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/f30b5e70-7163-41a4-83b5-a8e85900b43a], 
+........'Team Id' [f30b5e70-7163-41a4-83b5-a8e85900b43a], 'Team Name' [JWS_App-Project_1 Team], 
+........'Team Project Id' [dc408339-e04f-4582-9b50-65e9182fcb3a], 'Team Project Name' [JWS_App-Project_1], 
+........'Team Description' [The default project team.], 
+........'Links' [{'id': 'f30b5e70-7163-41a4-83b5-a8e85900b43a', 'name': 'JWS_App-Project_1 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a'}], 
+........'DefaultTeam' [{'self': {'href': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a'}, 'collection': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_1'}}], 
+........'Collection' [{'id': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'name': 'JWebsoftwareDev', 'url': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'description': 'JWebsoftware Development collection', 'state': 'Started', '_links': {'self': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/'}}}], 
+........'Team' [{'id': 'f30b5e70-7163-41a4-83b5-a8e85900b43a', 'name': 'JWS_App-Project_1 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a', 'description': 'The default project team.', 'identityUrl': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/f30b5e70-7163-41a4-83b5-a8e85900b43a', 'projectName': 'JWS_App-Project_1', 'projectId': 'dc408339-e04f-4582-9b50-65e9182fcb3a'}]. 
+........'Team Identity' [{'id': 'f30b5e70-7163-41a4-83b5-a8e85900b43a', 'descriptor': 'Microsoft.TeamFoundation.Identity;S-1-9-1551374245-3137978501-2921132615-2281797302-794202481-1-3492387817-1556745291-2828162252-2137013590', 'providerDisplayName': '[JWS_App-Project_1]\\JWS_App-Project_1 Team', 'isActive': True, 'isContainer': True, 'members': [], 'memberOf': [], 'memberIds': [], 'masterId': 'ffffffff-ffff-ffff-ffff-ffffffffffff', 'properties': {'SchemaClassName': {'$type': 'System.String', '$value': 'Group'}, 'Description': {'$type': 'System.String', '$value': 'The default project team.'}, 'Domain': {'$type': 'System.String', '$value': 'vstfs:///Classification/TeamProject/dc408339-e04f-4582-9b50-65e9182fcb3a'}, 'Account': {'$type': 'System.String', '$value': 'JWS_App-Project_1 Team'}, 'SecurityGroup': {'$type': 'System.String', '$value': 'SecurityGroup'}, 'SpecialType': {'$type': 'System.String', '$value': 'Generic'}, 'ScopeId': {'$type': 'System.Guid', '$value': '85c009bb-1cae-47f2-8801-76b62f569171'}, 'ScopeType': {'$type': 'System.String', '$value': 'TeamProject'}, 'LocalScopeId': {'$type': 'System.Guid', '$value': 'dc408339-e04f-4582-9b50-65e9182fcb3a'}, 'SecuringHostId': {'$type': 'System.Guid', '$value': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'ScopeName': {'$type': 'System.String', '$value': 'JWS_App-Project_1'}, 'VirtualPlugin': {'$type': 'System.String', '$value': ''}}, 'resourceVersion': 2, 'metaTypeId': 255}]. 
+........
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - - DEBUG - - - - - - - - - - - - - - - - - - - - - -
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  Checkmarx CxTFSProjectData(s) collection for (3) element(s):
+
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  CxTFSProjectData element (named 'JWS_App-Project_3') [(1) of (3)] is:
+'sClassDisp' is [CxTFSProjectData1.CxTFSProjectData (v1.0207): ], 'bTraceFlag' is [True], 'sCxProjectId' is [64d0c476-1c6f-43f0-a605-f13704d21b84], 'sCxProjectName' is [JWS_App-Project_3], 'sCxProjectDetailsURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84], 'sCxProjectState' is [wellFormed], 'sCxProjectRevision' is [27], 'bCxProjectIsPublic' is [False], 'sCxProjectCollectionURL' is [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8], 'sCxProjectTeamId' is [b1390904-d616-41bd-8319-785a781775d1], 'sCxProjectTeamName' is [JWS_App-Project_3 Team], 'sCxProjectTeamURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1], 'sCxProjectTeamDescription' is [The default project team.], 'sCxProjectTeamIdentityURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/b1390904-d616-41bd-8319-785a781775d1], 'sCxProjectTeamProjectName' is [JWS_App-Project_3], 'sCxProjectTeamProjectId' is [64d0c476-1c6f-43f0-a605-f13704d21b84], 'dictCxProjectLinks' is [{'id': 'b1390904-d616-41bd-8319-785a781775d1', 'name': 'JWS_App-Project_3 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1'}], 'dictCxProjectDefaultTeam' is [{'self': {'href': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84'}, 'collection': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_3'}}], 'dictCxProjectCollection' is [{'id': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'name': 'JWebsoftwareDev', 'url': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'description': 'JWebsoftware Development collection', 'state': 'Started', '_links': {'self': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/'}}}], 'dictCxProjectTeam' is [{'id': 'b1390904-d616-41bd-8319-785a781775d1', 'name': 'JWS_App-Project_3 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1', 'description': 'The default project team.', 'identityUrl': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/b1390904-d616-41bd-8319-785a781775d1', 'projectName': 'JWS_App-Project_3', 'projectId': '64d0c476-1c6f-43f0-a605-f13704d21b84'}], 'dictCxProjectTeamIdentity' is [{'id': 'b1390904-d616-41bd-8319-785a781775d1', 'descriptor': 'Microsoft.TeamFoundation.Identity;S-1-9-1551374245-3676763330-3727377230-2188695019-1701129950-1-2405522436-2630683725-2900901314-3470126043', 'providerDisplayName': '[JWS_App-Project_3]\\JWS_App-Project_3 Team', 'isActive': True, 'isContainer': True, 'members': [], 'memberOf': [], 'memberIds': [], 'masterId': 'ffffffff-ffff-ffff-ffff-ffffffffffff', 'properties': {'SchemaClassName': {'$type': 'System.String', '$value': 'Group'}, 'Description': {'$type': 'System.String', '$value': 'The default project team.'}, 'Domain': {'$type': 'System.String', '$value': 'vstfs:///Classification/TeamProject/64d0c476-1c6f-43f0-a605-f13704d21b84'}, 'Account': {'$type': 'System.String', '$value': 'JWS_App-Project_3 Team'}, 'SecurityGroup': {'$type': 'System.String', '$value': 'SecurityGroup'}, 'SpecialType': {'$type': 'System.String', '$value': 'Generic'}, 'ScopeId': {'$type': 'System.Guid', '$value': 'c2f426db-2bde-4e43-8274-d5eb65652ede'}, 'ScopeType': {'$type': 'System.String', '$value': 'TeamProject'}, 'LocalScopeId': {'$type': 'System.Guid', '$value': '64d0c476-1c6f-43f0-a605-f13704d21b84'}, 'SecuringHostId': {'$type': 'System.Guid', '$value': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'ScopeName': {'$type': 'System.String', '$value': 'JWS_App-Project_3'}, 'VirtualPlugin': {'$type': 'System.String', '$value': ''}}, 'resourceVersion': 2, 'metaTypeId': 255}]. 
+
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  CxTFSProjectData element (named 'JWS_App-Project_2') [(2) of (3)] is:
+'sClassDisp' is [CxTFSProjectData1.CxTFSProjectData (v1.0207): ], 'bTraceFlag' is [True], 'sCxProjectId' is [b173108d-156a-4dbd-b497-424656518485], 'sCxProjectName' is [JWS_App-Project_2], 'sCxProjectDetailsURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485], 'sCxProjectState' is [wellFormed], 'sCxProjectRevision' is [18], 'bCxProjectIsPublic' is [False], 'sCxProjectCollectionURL' is [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8], 'sCxProjectTeamId' is [36ea6805-b2e2-40d3-83e1-929248c13f00], 'sCxProjectTeamName' is [JWS_App-Project_2 Team], 'sCxProjectTeamURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00], 'sCxProjectTeamDescription' is [The default project team.], 'sCxProjectTeamIdentityURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/36ea6805-b2e2-40d3-83e1-929248c13f00], 'sCxProjectTeamProjectName' is [JWS_App-Project_2], 'sCxProjectTeamProjectId' is [b173108d-156a-4dbd-b497-424656518485], 'dictCxProjectLinks' is [{'id': '36ea6805-b2e2-40d3-83e1-929248c13f00', 'name': 'JWS_App-Project_2 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00'}], 'dictCxProjectDefaultTeam' is [{'self': {'href': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485'}, 'collection': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_2'}}], 'dictCxProjectCollection' is [{'id': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'name': 'JWebsoftwareDev', 'url': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'description': 'JWebsoftware Development collection', 'state': 'Started', '_links': {'self': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/'}}}], 'dictCxProjectTeam' is [{'id': '36ea6805-b2e2-40d3-83e1-929248c13f00', 'name': 'JWS_App-Project_2 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00', 'description': 'The default project team.', 'identityUrl': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/36ea6805-b2e2-40d3-83e1-929248c13f00', 'projectName': 'JWS_App-Project_2', 'projectId': 'b173108d-156a-4dbd-b497-424656518485'}], 'dictCxProjectTeamIdentity' is [{'id': '36ea6805-b2e2-40d3-83e1-929248c13f00', 'descriptor': 'Microsoft.TeamFoundation.Identity;S-1-9-1551374245-115205963-206790733-3027033700-1723512004-1-2325024426-3578115910-2904102122-3782818031', 'providerDisplayName': '[JWS_App-Project_2]\\JWS_App-Project_2 Team', 'isActive': True, 'isContainer': True, 'members': [], 'memberOf': [], 'memberIds': [], 'masterId': 'ffffffff-ffff-ffff-ffff-ffffffffffff', 'properties': {'SchemaClassName': {'$type': 'System.String', '$value': 'Group'}, 'Description': {'$type': 'System.String', '$value': 'The default project team.'}, 'Domain': {'$type': 'System.String', '$value': 'vstfs:///Classification/TeamProject/b173108d-156a-4dbd-b497-424656518485'}, 'Account': {'$type': 'System.String', '$value': 'JWS_App-Project_2 Team'}, 'SecurityGroup': {'$type': 'System.String', '$value': 'SecurityGroup'}, 'SpecialType': {'$type': 'System.String', '$value': 'Generic'}, 'ScopeId': {'$type': 'System.Guid', '$value': '4be7dd06-530c-4d60-b46c-de6466bab4c4'}, 'ScopeType': {'$type': 'System.String', '$value': 'TeamProject'}, 'LocalScopeId': {'$type': 'System.Guid', '$value': 'b173108d-156a-4dbd-b497-424656518485'}, 'SecuringHostId': {'$type': 'System.Guid', '$value': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'ScopeName': {'$type': 'System.String', '$value': 'JWS_App-Project_2'}, 'VirtualPlugin': {'$type': 'System.String', '$value': ''}}, 'resourceVersion': 2, 'metaTypeId': 255}]. 
+
+CxTFSProjectDataCollection1.CxTFSProjectDataCollection (v1.0301):  CxTFSProjectData element (named 'JWS_App-Project_1') [(3) of (3)] is:
+'sClassDisp' is [CxTFSProjectData1.CxTFSProjectData (v1.0207): ], 'bTraceFlag' is [True], 'sCxProjectId' is [dc408339-e04f-4582-9b50-65e9182fcb3a], 'sCxProjectName' is [JWS_App-Project_1], 'sCxProjectDetailsURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a], 'sCxProjectState' is [wellFormed], 'sCxProjectRevision' is [9], 'bCxProjectIsPublic' is [False], 'sCxProjectCollectionURL' is [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8], 'sCxProjectTeamId' is [f30b5e70-7163-41a4-83b5-a8e85900b43a], 'sCxProjectTeamName' is [JWS_App-Project_1 Team], 'sCxProjectTeamURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a], 'sCxProjectTeamDescription' is [The default project team.], 'sCxProjectTeamIdentityURL' is [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/f30b5e70-7163-41a4-83b5-a8e85900b43a], 'sCxProjectTeamProjectName' is [JWS_App-Project_1], 'sCxProjectTeamProjectId' is [dc408339-e04f-4582-9b50-65e9182fcb3a], 'dictCxProjectLinks' is [{'id': 'f30b5e70-7163-41a4-83b5-a8e85900b43a', 'name': 'JWS_App-Project_1 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a'}], 'dictCxProjectDefaultTeam' is [{'self': {'href': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a'}, 'collection': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_1'}}], 'dictCxProjectCollection' is [{'id': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'name': 'JWebsoftwareDev', 'url': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8', 'description': 'JWebsoftware Development collection', 'state': 'Started', '_links': {'self': {'href': 'http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'web': {'href': 'http://darylc-laptop:9080/tfs/JWebsoftwareDev/'}}}], 'dictCxProjectTeam' is [{'id': 'f30b5e70-7163-41a4-83b5-a8e85900b43a', 'name': 'JWS_App-Project_1 Team', 'url': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a', 'description': 'The default project team.', 'identityUrl': 'http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/f30b5e70-7163-41a4-83b5-a8e85900b43a', 'projectName': 'JWS_App-Project_1', 'projectId': 'dc408339-e04f-4582-9b50-65e9182fcb3a'}], 'dictCxProjectTeamIdentity' is [{'id': 'f30b5e70-7163-41a4-83b5-a8e85900b43a', 'descriptor': 'Microsoft.TeamFoundation.Identity;S-1-9-1551374245-3137978501-2921132615-2281797302-794202481-1-3492387817-1556745291-2828162252-2137013590', 'providerDisplayName': '[JWS_App-Project_1]\\JWS_App-Project_1 Team', 'isActive': True, 'isContainer': True, 'members': [], 'memberOf': [], 'memberIds': [], 'masterId': 'ffffffff-ffff-ffff-ffff-ffffffffffff', 'properties': {'SchemaClassName': {'$type': 'System.String', '$value': 'Group'}, 'Description': {'$type': 'System.String', '$value': 'The default project team.'}, 'Domain': {'$type': 'System.String', '$value': 'vstfs:///Classification/TeamProject/dc408339-e04f-4582-9b50-65e9182fcb3a'}, 'Account': {'$type': 'System.String', '$value': 'JWS_App-Project_1 Team'}, 'SecurityGroup': {'$type': 'System.String', '$value': 'SecurityGroup'}, 'SpecialType': {'$type': 'System.String', '$value': 'Generic'}, 'ScopeId': {'$type': 'System.Guid', '$value': '85c009bb-1cae-47f2-8801-76b62f569171'}, 'ScopeType': {'$type': 'System.String', '$value': 'TeamProject'}, 'LocalScopeId': {'$type': 'System.Guid', '$value': 'dc408339-e04f-4582-9b50-65e9182fcb3a'}, 'SecuringHostId': {'$type': 'System.Guid', '$value': 'cfe9528a-19f3-48ad-86fd-de981e6f9cf8'}, 'ScopeName': {'$type': 'System.String', '$value': 'JWS_App-Project_1'}, 'VirtualPlugin': {'$type': 'System.String', '$value': ''}}, 'resourceVersion': 2, 'metaTypeId': 255}]. 
+
+
+- - - - - - - - - - - - - - - - DEBUG - - - - - - - - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - - Rest API Json response(s) - - - - - - - - - - - -
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The Checkmarx TFS 'Get-ALL-Projects' via Rest API #1 is starting execution from Server [DRCMBP3-4.local] on [2019/09/29 at 13:21:56] under Python [v3.7.3]...
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(1) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-ALL-Projects} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (1235) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "count": 3,
+    "value": [
+        {
+            "id": "64d0c476-1c6f-43f0-a605-f13704d21b84",
+            "name": "JWS_App-Project_3",
+            "description": "JWS_App-Project_3 description",
+            "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84",
+            "state": "wellFormed",
+            "revision": 27,
+            "visibility": "private"
+        },
+        {
+            "id": "b173108d-156a-4dbd-b497-424656518485",
+            "name": "JWS_App-Project_2",
+            "description": "JWS_App-Project_2 description",
+            "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485",
+            "state": "wellFormed",
+            "revision": 18,
+            "visibility": "private"
+        },
+        {
+            "id": "dc408339-e04f-4582-9b50-65e9182fcb3a",
+            "name": "JWS_App-Project_1",
+            "description": "JWS_App-Project_1 description",
+            "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a",
+            "state": "wellFormed",
+            "revision": 9,
+            "visibility": "private"
+        }
+    ]
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(2) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (1041) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "64d0c476-1c6f-43f0-a605-f13704d21b84",
+    "name": "JWS_App-Project_3",
+    "description": "JWS_App-Project_3 description",
+    "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84",
+    "state": "wellFormed",
+    "revision": 27,
+    "_links": {
+        "self": {
+            "href": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84"
+        },
+        "collection": {
+            "href": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "web": {
+            "href": "http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_3"
+        }
+    },
+    "visibility": "private",
+    "defaultTeam": {
+        "id": "b1390904-d616-41bd-8319-785a781775d1",
+        "name": "JWS_App-Project_3 Team",
+        "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1"
+    }
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(3) for a [GET] of URL [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (533) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "cfe9528a-19f3-48ad-86fd-de981e6f9cf8",
+    "name": "JWebsoftwareDev",
+    "url": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8",
+    "description": "JWebsoftware Development collection",
+    "state": "Started",
+    "_links": {
+        "self": {
+            "href": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "web": {
+            "href": "http://darylc-laptop:9080/tfs/JWebsoftwareDev/"
+        }
+    }
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(4) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (512) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "b1390904-d616-41bd-8319-785a781775d1",
+    "name": "JWS_App-Project_3 Team",
+    "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/64d0c476-1c6f-43f0-a605-f13704d21b84/teams/b1390904-d616-41bd-8319-785a781775d1",
+    "description": "The default project team.",
+    "identityUrl": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/b1390904-d616-41bd-8319-785a781775d1",
+    "projectName": "JWS_App-Project_3",
+    "projectId": "64d0c476-1c6f-43f0-a605-f13704d21b84"
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(5) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/b1390904-d616-41bd-8319-785a781775d1] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (1983) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "b1390904-d616-41bd-8319-785a781775d1",
+    "descriptor": "Microsoft.TeamFoundation.Identity;S-1-9-1551374245-3676763330-3727377230-2188695019-1701129950-1-2405522436-2630683725-2900901314-3470126043",
+    "providerDisplayName": "[JWS_App-Project_3]\\JWS_App-Project_3 Team",
+    "isActive": true,
+    "isContainer": true,
+    "members": [],
+    "memberOf": [],
+    "memberIds": [],
+    "masterId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "properties": {
+        "SchemaClassName": {
+            "$type": "System.String",
+            "$value": "Group"
+        },
+        "Description": {
+            "$type": "System.String",
+            "$value": "The default project team."
+        },
+        "Domain": {
+            "$type": "System.String",
+            "$value": "vstfs:///Classification/TeamProject/64d0c476-1c6f-43f0-a605-f13704d21b84"
+        },
+        "Account": {
+            "$type": "System.String",
+            "$value": "JWS_App-Project_3 Team"
+        },
+        "SecurityGroup": {
+            "$type": "System.String",
+            "$value": "SecurityGroup"
+        },
+        "SpecialType": {
+            "$type": "System.String",
+            "$value": "Generic"
+        },
+        "ScopeId": {
+            "$type": "System.Guid",
+            "$value": "c2f426db-2bde-4e43-8274-d5eb65652ede"
+        },
+        "ScopeType": {
+            "$type": "System.String",
+            "$value": "TeamProject"
+        },
+        "LocalScopeId": {
+            "$type": "System.Guid",
+            "$value": "64d0c476-1c6f-43f0-a605-f13704d21b84"
+        },
+        "SecuringHostId": {
+            "$type": "System.Guid",
+            "$value": "cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "ScopeName": {
+            "$type": "System.String",
+            "$value": "JWS_App-Project_3"
+        },
+        "VirtualPlugin": {
+            "$type": "System.String",
+            "$value": ""
+        }
+    },
+    "resourceVersion": 2,
+    "metaTypeId": 255
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(6) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (1041) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "b173108d-156a-4dbd-b497-424656518485",
+    "name": "JWS_App-Project_2",
+    "description": "JWS_App-Project_2 description",
+    "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485",
+    "state": "wellFormed",
+    "revision": 18,
+    "_links": {
+        "self": {
+            "href": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485"
+        },
+        "collection": {
+            "href": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "web": {
+            "href": "http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_2"
+        }
+    },
+    "visibility": "private",
+    "defaultTeam": {
+        "id": "36ea6805-b2e2-40d3-83e1-929248c13f00",
+        "name": "JWS_App-Project_2 Team",
+        "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00"
+    }
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(7) for a [GET] of URL [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (533) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "cfe9528a-19f3-48ad-86fd-de981e6f9cf8",
+    "name": "JWebsoftwareDev",
+    "url": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8",
+    "description": "JWebsoftware Development collection",
+    "state": "Started",
+    "_links": {
+        "self": {
+            "href": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "web": {
+            "href": "http://darylc-laptop:9080/tfs/JWebsoftwareDev/"
+        }
+    }
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(8) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (512) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "36ea6805-b2e2-40d3-83e1-929248c13f00",
+    "name": "JWS_App-Project_2 Team",
+    "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/b173108d-156a-4dbd-b497-424656518485/teams/36ea6805-b2e2-40d3-83e1-929248c13f00",
+    "description": "The default project team.",
+    "identityUrl": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/36ea6805-b2e2-40d3-83e1-929248c13f00",
+    "projectName": "JWS_App-Project_2",
+    "projectId": "b173108d-156a-4dbd-b497-424656518485"
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(9) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/36ea6805-b2e2-40d3-83e1-929248c13f00] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (1981) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "36ea6805-b2e2-40d3-83e1-929248c13f00",
+    "descriptor": "Microsoft.TeamFoundation.Identity;S-1-9-1551374245-115205963-206790733-3027033700-1723512004-1-2325024426-3578115910-2904102122-3782818031",
+    "providerDisplayName": "[JWS_App-Project_2]\\JWS_App-Project_2 Team",
+    "isActive": true,
+    "isContainer": true,
+    "members": [],
+    "memberOf": [],
+    "memberIds": [],
+    "masterId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "properties": {
+        "SchemaClassName": {
+            "$type": "System.String",
+            "$value": "Group"
+        },
+        "Description": {
+            "$type": "System.String",
+            "$value": "The default project team."
+        },
+        "Domain": {
+            "$type": "System.String",
+            "$value": "vstfs:///Classification/TeamProject/b173108d-156a-4dbd-b497-424656518485"
+        },
+        "Account": {
+            "$type": "System.String",
+            "$value": "JWS_App-Project_2 Team"
+        },
+        "SecurityGroup": {
+            "$type": "System.String",
+            "$value": "SecurityGroup"
+        },
+        "SpecialType": {
+            "$type": "System.String",
+            "$value": "Generic"
+        },
+        "ScopeId": {
+            "$type": "System.Guid",
+            "$value": "4be7dd06-530c-4d60-b46c-de6466bab4c4"
+        },
+        "ScopeType": {
+            "$type": "System.String",
+            "$value": "TeamProject"
+        },
+        "LocalScopeId": {
+            "$type": "System.Guid",
+            "$value": "b173108d-156a-4dbd-b497-424656518485"
+        },
+        "SecuringHostId": {
+            "$type": "System.Guid",
+            "$value": "cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "ScopeName": {
+            "$type": "System.String",
+            "$value": "JWS_App-Project_2"
+        },
+        "VirtualPlugin": {
+            "$type": "System.String",
+            "$value": ""
+        }
+    },
+    "resourceVersion": 2,
+    "metaTypeId": 255
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(10) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (1040) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "dc408339-e04f-4582-9b50-65e9182fcb3a",
+    "name": "JWS_App-Project_1",
+    "description": "JWS_App-Project_1 description",
+    "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a",
+    "state": "wellFormed",
+    "revision": 9,
+    "_links": {
+        "self": {
+            "href": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a"
+        },
+        "collection": {
+            "href": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "web": {
+            "href": "http://darylc-laptop:9080/tfs/JWebsoftwareDev/JWS_App-Project_1"
+        }
+    },
+    "visibility": "private",
+    "defaultTeam": {
+        "id": "f30b5e70-7163-41a4-83b5-a8e85900b43a",
+        "name": "JWS_App-Project_1 Team",
+        "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a"
+    }
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(11) for a [GET] of URL [http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (533) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "cfe9528a-19f3-48ad-86fd-de981e6f9cf8",
+    "name": "JWebsoftwareDev",
+    "url": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8",
+    "description": "JWebsoftware Development collection",
+    "state": "Started",
+    "_links": {
+        "self": {
+            "href": "http://192.168.2.190:9080/tfs/_apis/projectCollections/cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "web": {
+            "href": "http://darylc-laptop:9080/tfs/JWebsoftwareDev/"
+        }
+    }
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(12) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (512) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "f30b5e70-7163-41a4-83b5-a8e85900b43a",
+    "name": "JWS_App-Project_1 Team",
+    "url": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/projects/dc408339-e04f-4582-9b50-65e9182fcb3a/teams/f30b5e70-7163-41a4-83b5-a8e85900b43a",
+    "description": "The default project team.",
+    "identityUrl": "http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/f30b5e70-7163-41a4-83b5-a8e85900b43a",
+    "projectName": "JWS_App-Project_1",
+    "projectId": "dc408339-e04f-4582-9b50-65e9182fcb3a"
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  Issuing Request #(13) for a [GET] of URL [http://192.168.2.190:9080/tfs/JWebsoftwareDev/_apis/Identities/f30b5e70-7163-41a4-83b5-a8e85900b43a] with Header(s) of [{'Authorization': 'Basic ZGNveDozcXI2cHg0eW9nYnR3cng1NmlvczV3Y3A1M2tuZWVvanQ3dGNxajV3M3E1Zmh4YWg2Zmhx', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json;api-version=4.1', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'cache-control': 'no-cache'}]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL [GET] Request returned a 'status' code of [200] Type [<class 'int'>]...
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The URL Request returned a 'status' code of [200] Type [<class 'int'>] is a 'good' response...
+
+=============== JSON 'string' Response {TFS Get-Unique-Project-Details} ===============
+CxTFSProjectsRestAPIBase1.CxTFSProjectsRestAPIBase (v1.0301):  The JSON Response: LEN (1982) - TYPE [<class 'str'>]...
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+{
+    "id": "f30b5e70-7163-41a4-83b5-a8e85900b43a",
+    "descriptor": "Microsoft.TeamFoundation.Identity;S-1-9-1551374245-3137978501-2921132615-2281797302-794202481-1-3492387817-1556745291-2828162252-2137013590",
+    "providerDisplayName": "[JWS_App-Project_1]\\JWS_App-Project_1 Team",
+    "isActive": true,
+    "isContainer": true,
+    "members": [],
+    "memberOf": [],
+    "memberIds": [],
+    "masterId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "properties": {
+        "SchemaClassName": {
+            "$type": "System.String",
+            "$value": "Group"
+        },
+        "Description": {
+            "$type": "System.String",
+            "$value": "The default project team."
+        },
+        "Domain": {
+            "$type": "System.String",
+            "$value": "vstfs:///Classification/TeamProject/dc408339-e04f-4582-9b50-65e9182fcb3a"
+        },
+        "Account": {
+            "$type": "System.String",
+            "$value": "JWS_App-Project_1 Team"
+        },
+        "SecurityGroup": {
+            "$type": "System.String",
+            "$value": "SecurityGroup"
+        },
+        "SpecialType": {
+            "$type": "System.String",
+            "$value": "Generic"
+        },
+        "ScopeId": {
+            "$type": "System.Guid",
+            "$value": "85c009bb-1cae-47f2-8801-76b62f569171"
+        },
+        "ScopeType": {
+            "$type": "System.String",
+            "$value": "TeamProject"
+        },
+        "LocalScopeId": {
+            "$type": "System.Guid",
+            "$value": "dc408339-e04f-4582-9b50-65e9182fcb3a"
+        },
+        "SecuringHostId": {
+            "$type": "System.Guid",
+            "$value": "cfe9528a-19f3-48ad-86fd-de981e6f9cf8"
+        },
+        "ScopeName": {
+            "$type": "System.String",
+            "$value": "JWS_App-Project_1"
+        },
+        "VirtualPlugin": {
+            "$type": "System.String",
+            "$value": ""
+        }
+    },
+    "resourceVersion": 2,
+    "metaTypeId": 255
+}
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

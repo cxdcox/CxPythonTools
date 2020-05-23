@@ -1,0 +1,24 @@
+
+Python extras:
+
+    pip install requests
+
+OData:
+
+For all projects in a team, return the number of recurrent/resolved/new issues (vulnerabilities) within a predefined time range.
+
+    Requested result:list the number of recurrent/resolved/new issues (vulnerabilities) detected by scans made in all projects
+    that were carried out in a team within a predefined time range. The sample query below refers to a time range between the
+    23/07/2015 and 23/08/2015.
+
+    Query used for retrieving the data: 
+
+        http://localhost/Cxwebinterface/odata/v1/Projects?$filter=OwningTeamId%20eq%20%2700000000-1111-1111-b111-989c9070eb11%27&$expand=Scans($expand=ResultSummary;$select=Id,ScanRequestedOn,ResultSummary;$filter=ScanRequestedOn%20gt%202015-07-23%20and%20ScanRequestedOn%20lt%202015-08-23)
+
+    Local test:
+
+        http://192.168.2.190:8080/Cxwebinterface/odata/v1/Projects?$filter=OwningTeamId%20eq%20%00000000-1111-1111-b111-989c9070eb11%27&$expand=Scans%20$expand=ResultSummary;$select=Id,ScanRequestedOn,ResultSummary;$filter=ScanRequestedOn%20gt%202015-07-23%20and%20ScanRequestedOn%20lt%202019-08-01)
+
+        http://192.168.2.190:8080/Cxwebinterface/odata/v1/Projects?$filter=OwningTeamId%20eq%20%00000000-1111-1111-b111-989c9070eb11%27&$expand=ResultSummary;$select=Id,ScanRequestedOn,ResultSummary;$filter=ScanRequestedOn%20gt%202015-07-23%20and%20ScanRequestedOn%20lt%202019-08-01
+
+
