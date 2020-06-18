@@ -16,7 +16,7 @@ import CxProjectCreationCollection1;
 
 optParser                 = optparse.OptionParser();
 sScriptId                 = optParser.get_prog_name();
-sScriptVers               = "(v1.0403)";
+sScriptVers               = "(v1.0404)";
 sScriptDisp               = sScriptId+" "+sScriptVers+":"
 cScriptArgc               = len(sys.argv);
 
@@ -48,7 +48,7 @@ def main():
         optParser.add_option("-r", "--recursive", dest="search_recursive", default=False, help="Search Directory PATHS recursively", action="store_true");
         optParser.add_option("-c", "--case-sensitive", dest="case_sensitive", default=False, help="Search Directory PATHS with case-sensitivity", action="store_true");
         optParser.add_option("-d", "--data-directory", dest="data_directory", default="", help="Directory with file(s) to process", metavar="DIRECTORY-of-Files-to-Process");
-        optParser.add_option("-p", "--file-patterns", dest="file_patterns", default="*.plist", help="File 'patterns' to search for (semicolon delimited) [default is '*.properties']", metavar="FILE-PATTERNS");
+        optParser.add_option("-p", "--file-patterns", dest="file_patterns", default="*.plist", help="File 'patterns' to search for (semicolon delimited) [default is '*.plist']", metavar="FILE-PATTERNS");
         optParser.add_option("--url", dest="cx_server_url", default="", help="Checkmarx Server URL - Protocol/Host/Port - sample: --url=http://hostname:8080", metavar="Checkmarx-Server-URL");
         optParser.add_option("--user", dest="cx_auth_user", default="", help="Checkmarx Authentication UserId", metavar="Checkmarx-UserId");
         optParser.add_option("--pswd", dest="cx_auth_pswd", default="", help="Checkmarx Authentication Password", metavar="Checkmarx-Password");

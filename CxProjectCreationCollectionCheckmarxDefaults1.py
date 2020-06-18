@@ -13,14 +13,16 @@ from zope.interface import implementer;
 from CxProjectCreationCollectionInterfaceDefaults1 import CxProjectCreationCollectionInterfaceDefaults;
 
 # ass CxProjectCreationCollectionCheckmarxDefaults(interface.implements(CxProjectCreationCollectionInterfaceDefaults)):
-@implementer(CxProjectCreationCollectionInterfaceDefaults)
+# mplementer(CxProjectCreationCollectionInterfaceDefaults)
+@zope.interface.implementer(CxProjectCreationCollectionInterfaceDefaults)
 class CxProjectCreationCollectionCheckmarxDefaults(object):
+# ass CxProjectCreationCollectionCheckmarxDefaults(CxProjectCreationCollectionInterfaceDefaults):
 
     # pe.interface.implements(CxProjectCreationCollectionInterfaceDefaults);
 
     sClassMod  = __name__;
     sClassId   = "CxProjectCreationCollectionCheckmarxDefaults";
-    sClassVers = "(v1.0305)";
+    sClassVers = "(v1.0309)";
     sClassDisp = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     bTraceFlag = False;
@@ -89,7 +91,106 @@ class CxProjectCreationCollectionCheckmarxDefaults(object):
  
         return;
 
-    # Project 'overrides' for various field(s) (for the 'Checkmarx' version - everything defaults to the 'super' class):
+    def getCxProjectBaseName(self, cxprojectcreation=None, dictprojectcreationproperties=None):
+
+        if cxprojectcreation == None:
+
+            return None;
+
+        cxProjectCreation = cxprojectcreation;
+
+        sCxProjectBaseName = cxProjectCreation.getCxProjectBaseName();
+
+        if sCxProjectBaseName != None:
+
+            sCxProjectBaseName = sCxProjectBaseName.strip();
+
+        if sCxProjectBaseName == None or \
+            len(sCxProjectBaseName) < 1:
+
+            sCxProjectBaseName = cxProjectCreation.getCxProjectName();
+
+            cxProjectCreation.setCxProjectBaseName(cxprojectbasename=sCxProjectBaseName);
+
+        return sCxProjectBaseName;
+
+    def getCxProjectName(self, cxprojectcreation=None, dictprojectcreationproperties=None):
+
+        if cxprojectcreation == None:
+
+            return None;
+
+        cxProjectCreation = cxprojectcreation;
+
+        return cxProjectCreation.getCxProjectName();
+
+    def getExtraCxProjectBranchNames(self, cxprojectcreation=None, dictprojectcreationproperties=None):
+
+        if cxprojectcreation == None:
+
+            return None;
+
+        return None;
+
+    def getCxProjectTeamName(self, cxprojectcreation=None, dictprojectcreationproperties=None):
+
+        if cxprojectcreation == None:
+
+            return None;
+
+        cxProjectCreation  = cxprojectcreation;
+        sCxProjectTeamName = cxProjectCreation.getCxProjectTeam();
+
+        if sCxProjectTeamName != None:
+        
+            sCxProjectTeamName = sCxProjectTeamName.strip();
+        
+        if sCxProjectTeamName != None and \
+            len(sCxProjectTeamName) > 0:
+
+            return sCxProjectTeamName;
+        
+        return self.getDefaultCxProjectTeamName();
+
+    def getCxProjectBranchedName(self, cxprojectcreation=None, cxprojectbranchname=None):
+
+        if cxprojectcreation == None:
+
+            return None;
+
+        cxProjectCreation = cxprojectcreation;
+
+        if cxprojectbranchname == None:
+
+            return None;
+
+        sCxProjectBranchName = cxprojectbranchname;
+
+        if sCxProjectBranchName != None:
+
+            sCxProjectBranchName = sCxProjectBranchName.strip();
+
+        if sCxProjectBranchName == None or \
+            len(sCxProjectBranchName) < 1:
+
+            return None;
+
+        sCxProjectBaseName = cxProjectCreation.getCxProjectBaseName();
+
+        if sCxProjectBaseName != None:
+
+            sCxProjectBaseName = sCxProjectBaseName.strip();
+
+        if sCxProjectBaseName == None or \
+            len(sCxProjectBaseName) < 1:
+
+            sCxProjectBaseName = cxProjectCreation.getCxProjectName();
+
+            cxProjectCreation.setCxProjectBaseName(cxprojectbasename=sCxProjectBaseName);
+
+        sGeneratedProjectBranchedName = "%s_BR_%s" % (sCxProjectBaseName, sCxProjectBranchName); 
+
+        return sGeneratedProjectBranchedName;
 
     def dump_fields(self):
 

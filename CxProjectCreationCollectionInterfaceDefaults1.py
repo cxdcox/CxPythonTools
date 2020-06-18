@@ -13,7 +13,7 @@ class CxProjectCreationCollectionInterfaceDefaults(zope.interface.Interface):
 
 #   sClassMod  = __name__;
 #   sClassId   = "CxProjectCreationCollectionInterfaceDefaults";
-#   sClassVers = "(v1.0204)";
+#   sClassVers = "(v1.0206)";
 #   sClassDisp = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     # -------------------------------------------------------------------
@@ -60,111 +60,118 @@ class CxProjectCreationCollectionInterfaceDefaults(zope.interface.Interface):
     # @interface.default
     def getCxProjectBaseName(self, cxprojectcreation=None, dictprojectcreationproperties=None):
 
-        if cxprojectcreation == None:
+        pass;
 
-            return None;
-
-        cxProjectCreation = cxprojectcreation;
-
-        sCxProjectBaseName = cxProjectCreation.getCxProjectBaseName();
-
-        if sCxProjectBaseName != None:
-
-            sCxProjectBaseName = sCxProjectBaseName.strip();
-
-        if sCxProjectBaseName == None or \
-            len(sCxProjectBaseName) < 1:
-
-            sCxProjectBaseName = cxProjectCreation.getCxProjectName();
-
-            cxProjectCreation.setCxProjectBaseName(cxprojectbasename=sCxProjectBaseName);
-
-        return sCxProjectBaseName;
+    #   if cxprojectcreation == None:
+    #
+    #       return None;
+    #
+    #   cxProjectCreation = cxprojectcreation;
+    #
+    #   sCxProjectBaseName = cxProjectCreation.getCxProjectBaseName();
+    #
+    #   if sCxProjectBaseName != None:
+    #
+    #       sCxProjectBaseName = sCxProjectBaseName.strip();
+    #
+    #   if sCxProjectBaseName == None or \
+    #       len(sCxProjectBaseName) < 1:
+    #
+    #       sCxProjectBaseName = cxProjectCreation.getCxProjectName();
+    #
+    #       cxProjectCreation.setCxProjectBaseName(cxprojectbasename=sCxProjectBaseName);
+    #
+    #   return sCxProjectBaseName;
 
     # @interface.default
     def getCxProjectName(self, cxprojectcreation=None, dictprojectcreationproperties=None):
 
-        if cxprojectcreation == None:
+        pass;
 
-            return None;
-
-        cxProjectCreation = cxprojectcreation;
-
-        return cxProjectCreation.getCxProjectName();
+    #   if cxprojectcreation == None:
+    #
+    #       return None;
+    #
+    #   cxProjectCreation = cxprojectcreation;
+    #
+    #   return cxProjectCreation.getCxProjectName();
 
     # @interface.default
     def getExtraCxProjectBranchNames(self, cxprojectcreation=None, dictprojectcreationproperties=None):
 
-        if cxprojectcreation == None:
+        pass;
 
-            return None;
-
-        return None;
+    #   if cxprojectcreation == None:
+    #
+    #       return None;
+    #
+    #   return None;
 
     # @interface.default
     def getCxProjectTeamName(self, cxprojectcreation=None, dictprojectcreationproperties=None):
 
-        if cxprojectcreation == None:
+        pass;
 
-            return None;
-
-        cxProjectCreation  = cxprojectcreation;
-        sCxProjectTeamName = cxProjectCreation.getCxProjectTeam();
-
-        if sCxProjectTeamName != None:
-        
-            sCxProjectTeamName = sCxProjectTeamName.strip();
-        
-        if sCxProjectTeamName != None and \
-            len(sCxProjectTeamName) > 0:
-
-            return sCxProjectTeamName;
-        
-    #   return self.sDefaultCxProjectTeamName;
-        return self.getDefaultCxProjectTeamName();
+    #   if cxprojectcreation == None:
+    #
+    #       return None;
+    #
+    #   cxProjectCreation  = cxprojectcreation;
+    #   sCxProjectTeamName = cxProjectCreation.getCxProjectTeam();
+    #
+    #   if sCxProjectTeamName != None:
+    #   
+    #       sCxProjectTeamName = sCxProjectTeamName.strip();
+    #   
+    #   if sCxProjectTeamName != None and \
+    #       len(sCxProjectTeamName) > 0:
+    #
+    #       return sCxProjectTeamName;
+    #   
+    #   return self.getDefaultCxProjectTeamName();
 
     # @interface.default
     def getCxProjectBranchedName(self, cxprojectcreation=None, cxprojectbranchname=None):
 
-        if cxprojectcreation == None:
+        pass;
 
-            return None;
-
-        cxProjectCreation = cxprojectcreation;
-
-        if cxprojectbranchname == None:
-
-            return None;
-
-        sCxProjectBranchName = cxprojectbranchname;
-
-        if sCxProjectBranchName != None:
-
-            sCxProjectBranchName = sCxProjectBranchName.strip();
-
-        if sCxProjectBranchName == None or \
-            len(sCxProjectBranchName) < 1:
-
-            return None;
-
-        sCxProjectBaseName = cxProjectCreation.getCxProjectBaseName();
-
-        if sCxProjectBaseName != None:
-
-            sCxProjectBaseName = sCxProjectBaseName.strip();
-
-        if sCxProjectBaseName == None or \
-            len(sCxProjectBaseName) < 1:
-
-            sCxProjectBaseName = cxProjectCreation.getCxProjectName();
-
-            cxProjectCreation.setCxProjectBaseName(cxprojectbasename=sCxProjectBaseName);
-
-        #   return sCxProjectBranchName;
-
-        sGeneratedProjectBranchedName = "%s_BR_%s" % (sCxProjectBaseName, sCxProjectBranchName); 
-
-        return sGeneratedProjectBranchedName;
+    #   if cxprojectcreation == None:
+    #
+    #       return None;
+    #
+    #   cxProjectCreation = cxprojectcreation;
+    #
+    #   if cxprojectbranchname == None:
+    #
+    #       return None;
+    #
+    #   sCxProjectBranchName = cxprojectbranchname;
+    #
+    #   if sCxProjectBranchName != None:
+    #
+    #       sCxProjectBranchName = sCxProjectBranchName.strip();
+    #
+    #   if sCxProjectBranchName == None or \
+    #       len(sCxProjectBranchName) < 1:
+    #
+    #       return None;
+    #
+    #   sCxProjectBaseName = cxProjectCreation.getCxProjectBaseName();
+    #
+    #   if sCxProjectBaseName != None:
+    #
+    #       sCxProjectBaseName = sCxProjectBaseName.strip();
+    #
+    #   if sCxProjectBaseName == None or \
+    #       len(sCxProjectBaseName) < 1:
+    #
+    #       sCxProjectBaseName = cxProjectCreation.getCxProjectName();
+    #
+    #       cxProjectCreation.setCxProjectBaseName(cxprojectbasename=sCxProjectBaseName);
+    #
+    #   sGeneratedProjectBranchedName = "%s_BR_%s" % (sCxProjectBaseName, sCxProjectBranchName); 
+    #
+    #   return sGeneratedProjectBranchedName;
 
 #   def dump_fields(self):
 #
