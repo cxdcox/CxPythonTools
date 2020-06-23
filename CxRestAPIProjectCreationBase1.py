@@ -23,7 +23,7 @@ class CxRestAPIProjectCreationBase:
 
     sClassMod                   = __name__;
     sClassId                    = "CxRestAPIProjectCreationBase";
-    sClassVers                  = "(v1.0563)";
+    sClassVers                  = "(v1.0601)";
     sClassDisp                  = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     bTraceFlag                  = False;
@@ -2002,7 +2002,7 @@ class CxRestAPIProjectCreationBase:
             CxRestAPIStatistics1.cRestAPICallsMade += 1;
 
             cxRequestURL = "%s/cxrestapi/sast/scans" % (self.cxServerEndpoint.getCxServerURL());
-            cxReqPayload = "{'projectId':\"%s\", 'isIncremental':\"false\", 'isPublic':\"%s\", 'forceScan':\"true\"}" % (cxProjectCreation.getCxProjectId(), ("true" if (cxProjectCreation.getCxProjectIsPublic() == True) else "false"));
+            cxReqPayload = "{'projectId':\"%s\", 'isIncremental':\"false\", 'isPublic':\"%s\", 'forceScan':\"true\"}" % (cxProjectCreation.getCxProjectId(), ("true" if (cxProjectCreation.getCxProjectScanIsPublic() == True) else "false"));
             cxReqHeaders = {
                 'Content-Type':  "application/json;v=1.0",
                 'Authorization': ("%s %s" % (self.cxServerEndpoint.getCxTokenType(), self.cxServerEndpoint.getCxAccessToken())),

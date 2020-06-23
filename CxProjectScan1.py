@@ -12,7 +12,7 @@ class CxProjectScan(object):
 
     sClassMod                = __name__;
     sClassId                 = "CxProjectScan";
-    sClassVers               = "(v1.0506)";
+    sClassVers               = "(v1.0601)";
     sClassDisp               = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     bTraceFlag               = False;

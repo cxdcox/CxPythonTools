@@ -10,7 +10,7 @@ class CxProjectCreation:
 
     sClassMod                  = __name__;
     sClassId                   = "CxProjectCreation";
-    sClassVers                 = "(v1.0532)";
+    sClassVers                 = "(v1.0602)";
     sClassDisp                 = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     bTraceFlag                 = False;
@@ -19,6 +19,7 @@ class CxProjectCreation:
     sCxProjectName             = None;
     bCxProjectIsPublic         = False;
     sCxProjectScanType         = None;
+    bCxProjectScanIsPublic     = False;
     sCxProjectTeam             = None;
     sCxProjectVersion          = None;
     sCxProjectTeamName         = None;
@@ -46,7 +47,7 @@ class CxProjectCreation:
     sCxProjectSASTZipFilespec  = None;
     sCxProjectOSAZipFilespec   = None;
 
-    def __init__(self, trace=False, cxprojectname=None, cxprojectispublic=True, cxprojectscantype=None, cxprojectteamname=None, cxprojectpresetname=None, cxprojectengineconfigname=None, cxprojectbranchnames=None):
+    def __init__(self, trace=False, cxprojectname=None, cxprojectispublic=True, cxprojectscantype=None, cxprojectscanispublic=True, cxprojectteamname=None, cxprojectpresetname=None, cxprojectengineconfigname=None, cxprojectbranchnames=None):
 
         try:
 
@@ -54,6 +55,7 @@ class CxProjectCreation:
             self.setCxProjectName(cxprojectname=cxprojectname);
             self.setCxProjectIsPublic(cxprojectispublic=cxprojectispublic);
             self.setCxProjectScanType(cxprojectscantype=cxprojectscantype);
+            self.setCxProjectScanIsPublic(cxprojectscanispublic=cxprojectscanispublic);
             self.setCxProjectTeamName(cxprojectteamname=cxprojectteamname);
             self.setCxProjectPresetName(cxprojectpresetname=cxprojectpresetname);
             self.setCxProjectEngineConfigName(cxprojectengineconfigname=cxprojectengineconfigname);
@@ -148,6 +150,14 @@ class CxProjectCreation:
            self.sCxProjectScanType != "osa":
 
             self.sCxProjectScanType = None;
+
+    def getCxProjectScanIsPublic(self):
+
+        return self.bCxProjectScanIsPublic;
+
+    def setCxProjectScanIsPublic(self, cxprojectscanispublic=False):
+
+        self.bCxProjectScanIsPublic = cxprojectscanispublic;
 
     def getCxProjectTeam(self):
 
@@ -471,6 +481,7 @@ class CxProjectCreation:
             print("%s The contents of 'sCxProjectName' is [%s]..." % (self.sClassDisp, self.sCxProjectName));
             print("%s The contents of 'bCxProjectIsPublic' is [%s]..." % (self.sClassDisp, self.bCxProjectIsPublic));
             print("%s The contents of 'sCxProjectScanType' is [%s]..." % (self.sClassDisp, self.sCxProjectScanType));
+            print("%s The contents of 'bCxProjectScanIsPublic' is [%s]..." % (self.sClassDisp, self.bCxProjectScanIsPublic));
             print("%s The contents of 'sCxProjectTeam' is [%s]..." % (self.sClassDisp, self.sCxProjectTeam));
             print("%s The contents of 'sCxProjectVersion' is [%s]..." % (self.sClassDisp, self.sCxProjectVersion));
             print("%s The contents of 'sCxProjectTeamName' is [%s]..." % (self.sClassDisp, self.sCxProjectTeamName));
@@ -499,6 +510,7 @@ class CxProjectCreation:
         asObjDetail.append("'sCxProjectName' is [%s], " % (self.sCxProjectName));
         asObjDetail.append("'bCxProjectIsPublic' is [%s], " % (self.bCxProjectIsPublic));
         asObjDetail.append("'sCxProjectScanType' is [%s], " % (self.sCxProjectScanType));
+        asObjDetail.append("'bCxProjectScanIsPublic' is [%s], " % (self.bCxProjectScanIsPublic));
         asObjDetail.append("'sCxProjectTeam' is [%s], " % (self.sCxProjectTeam));
         asObjDetail.append("'sCxProjectVersion' is [%s], " % (self.sCxProjectVersion));
         asObjDetail.append("'sCxProjectTeamName' is [%s], " % (self.sCxProjectTeamName));

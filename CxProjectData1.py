@@ -13,7 +13,7 @@ class CxProjectData(object):
 
     sClassMod                       = __name__;
     sClassId                        = "CxProjectData";
-    sClassVers                      = "(v1.0577)";
+    sClassVers                      = "(v1.0601)";
     sClassDisp                      = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     bTraceFlag                      = False;

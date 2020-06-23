@@ -22,7 +22,7 @@ class CxProjectCreationCollection:
 
     sClassMod                            = __name__;
     sClassId                             = "CxProjectCreationCollection";
-    sClassVers                           = "(v1.0581)";
+    sClassVers                           = "(v1.0601)";
     sClassDisp                           = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     # Project 'instance' field(s):
@@ -1414,6 +1414,8 @@ class CxProjectCreationCollection:
             #     <string>JWS_App-Project_1</string>
             #     <key>AppProjectId</key>
             #     <string>dc408339-e04f-4582-9b50-65e9182fcb3a</string>
+            #     <key>AppIsPrivate</key>
+            #     <string>false</string>
             #     <key>AppScanType</key>
             #     <string>both</string>
             #     <key>AppRepos</key>
@@ -1506,6 +1508,22 @@ class CxProjectCreationCollection:
             else:
 
                 cxProjectCreation1.setCxProjectScanType(cxprojectscantype="both");
+
+            if "AppIsPublic" in dictProjectCreationPlist.keys():
+
+                cxProjectCreation1.setCxProjectIsPublic(cxprojectispublic=dictProjectCreationPlist["AppIsPublic"]);
+
+            else:
+
+                cxProjectCreation1.setCxProjectIsPublic(cxprojectispublic=True);
+
+            if "AppScanIsPublic" in dictProjectCreationPlist.keys():
+
+                cxProjectCreation1.setCxProjectScanIsPublic(cxprojectscanispublic=dictProjectCreationPlist["AppScanIsPublic"]);
+
+            else:
+
+                cxProjectCreation1.setCxProjectScanIsPublic(cxprojectscanispublic=True);
 
             cxProjectCreation1.setCxProjectEngineConfigName(cxprojectengineconfigname="Multi-language Scan");
 
