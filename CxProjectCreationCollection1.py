@@ -22,7 +22,7 @@ class CxProjectCreationCollection:
 
     sClassMod                            = __name__;
     sClassId                             = "CxProjectCreationCollection";
-    sClassVers                           = "(v1.0601)";
+    sClassVers                           = "(v1.0606)";
     sClassDisp                           = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     # Project 'instance' field(s):
@@ -209,22 +209,45 @@ class CxProjectCreationCollection:
 
             return;
 
-        sCxTeamId = cxteamid;
+        sCxTeamId = "";
 
-        if sCxTeamId != None:
+        if cxteamid != None:
 
-            sCxTeamId = sCxTeamId.strip();
+            if type(cxteamid) == str:
 
-        if sCxTeamId == None or \
-            len(sCxTeamId) < 1:
+                sCxTeamId = cxteamid;
 
-            sCxTeamId = "";
+                if sCxTeamId != None:
+
+                    sCxTeamId = sCxTeamId.strip();
+
+                if sCxTeamId == None or \
+                   len(sCxTeamId) < 1:
+
+                    sCxTeamId = "";
+
+            else:
+
+                iCxTeamId = cxteamid;
+
+                if iCxTeamId < 0:
+
+                    sCxTeamId = "";
+
+                else:
+
+                    sCxTeamId = ("%d" % iCxTeamId);
 
         if self.dictCxAllTeams == None:
 
             self.dictCxAllTeams = collections.defaultdict();
 
         self.dictCxAllTeams[sCxTeamFullName] = sCxTeamId;
+
+        if self.bTraceFlag == True:
+
+            print("%s 'addCxProjectMetaDataAllTeams()' - Added 'sCxTeamId' of [%s] to the 'self.dictCxAllTeams' collection with a Key 'sCxTeamFullName' of [%s].." % (self.sClassDisp, sCxTeamId, sCxTeamFullName));
+            print("");
 
     def getCxProjectMetaDataAllPresets(self):
 
@@ -1584,7 +1607,19 @@ class CxProjectCreationCollection:
 
                                         continue;
 
-                                    sAppRepoBranchName   = dictAppRepoBranch["BranchName"];
+                                    sAppRepoBranchName = dictAppRepoBranch["BranchName"];
+
+                                    if sAppRepoBranchName != None:
+
+                                        sAppRepoBranchName = sAppRepoBranchName.strip();
+
+                                    if sAppRepoBranchName == None or \
+                                        len(sAppRepoBranchName) < 1:
+
+                                        continue;
+
+                                    sAppRepoBranchName = sAppRepoBranchName.replace('/', '-'); 
+
                                     sAppRepoBranchActive = dictAppRepoBranch["BranchIsActive"];
 
                                     if sAppRepoBranchActive != None:

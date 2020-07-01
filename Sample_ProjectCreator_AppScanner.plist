@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppGroupName</key>
+	<string>JWS_Dev</string>
+	<key>AppIsActive</key>
+	<string>true</string>
+	<key>AppName</key>
+	<string>JWS_App-Project_1</string>
+	<key>AppProjectId</key>
+	<string>0</string>
+	<key>AppIsPublic</key>
+	<string>true</string>
+	<key>AppScanIsPublic</key>
+	<string>true</string>
+	<key>AppScanType</key>
+	<string>both</string>
+    <key>AppCreateBranches</key>
+    <string>true</string>
+	<key>AppRepos</key>
+	<array>
+		<dict>
+			<key>RepoBranches</key>
+			<array>
+				<dict>
+					<key>BranchIsActive</key>
+					<string>true</string>
+					<key>BranchName</key>
+					<string>refs/heads/master</string>
+				</dict>
+			</array>
+			<key>RepoIsActive</key>
+			<string>true</string>
+			<key>RepoRemoteURL</key>
+			<string>http://10.211.55.50/jwebsoftwaredev/jws_app-project_gitlab_1.git</string>
+			<key>RepoSshURL</key>
+			<string>git@10.211.55.50:jwebsoftwaredev/jws_app-project_gitlab_1.git</string>
+			<key>RepoTitle</key>
+			<string>JWS_App-Project_GitLab_1</string>
+			<key>RepoURL</key>
+			<string>http://10.211.55.50/jwebsoftwaredev/jws_app-project_gitlab_1.git</string>
+		</dict>
+	</array>
+</dict>
+</plist>

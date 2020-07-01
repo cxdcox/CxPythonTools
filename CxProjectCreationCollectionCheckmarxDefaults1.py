@@ -22,7 +22,7 @@ class CxProjectCreationCollectionCheckmarxDefaults(object):
 
     sClassMod  = __name__;
     sClassId   = "CxProjectCreationCollectionCheckmarxDefaults";
-    sClassVers = "(v1.0309)";
+    sClassVers = "(v1.0310)";
     sClassDisp = sClassMod+"."+sClassId+" "+sClassVers+": ";
 
     bTraceFlag = False;
@@ -40,7 +40,8 @@ class CxProjectCreationCollectionCheckmarxDefaults(object):
 
     # Project 'default' field(s):
 
-    sDefaultCxProjectTeamName         = "\\CxServer\\SP\\Company\\Users";
+ #  sDefaultCxProjectTeamName         = "\\CxServer\\SP\\Company\\Users";   <<< Use \\ for 8.9 and lower - use / for 9.0+
+    sDefaultCxProjectTeamName         = "/CxServer/SP/Company/Users";
     sDefaultCxProjectPresetName       = "Checkmarx Default";
     sDefaultCxProjectMobilePresetName = "Mobile";
 
